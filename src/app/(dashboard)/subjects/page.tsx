@@ -1,9 +1,5 @@
-import React from 'react'
+import { Subjects } from "@/components/card/subjectcard";
 
-const page = () => {
-  return (
-    <div>page</div>
-  )
+export default function SubjectsPage() {
+  return <Subjects />;
 }
-
-export default page
